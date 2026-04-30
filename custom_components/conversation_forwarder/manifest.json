@@ -1,0 +1,11 @@
+{
+  "domain": "conversation_forwarder",
+  "name": "Conversation Forwarder",
+  "codeowners": ["@epaulsen"],
+  "config_flow": true,
+  "documentation": "https://github.com/epaulsen/ha-conversation-forwarder",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "version": "1.0.0",
+  "requirements": []
+}
