@@ -30,7 +30,7 @@ class ConversationForwarderEntity(conversation.ConversationEntity):
     _attr_name = None
 
     def __init__(self, entry: ConfigEntry) -> None:
-        """Initialise the forwarder entity."""
+        """Initialize the forwarder entity."""
         self._entry = entry
         self._url: str = entry.data[CONF_URL]
         self._attr_unique_id = entry.entry_id
